@@ -10,7 +10,7 @@ resource "aws_s3_bucket" "ignoretest2" {
   acl    = "private"
   versioning {
     enabled = false
-    mfa_delete = false
+    mfa_delete = true
   }
 }
 
