@@ -6,6 +6,7 @@ resource "azurerm_managed_disk" "ignoretesting1" {
   create_option        = "Empty"
   disk_size_gb         = var.disk_size_gb
   tags = var.common_tags
+  enabled_for_disk_encryption = true
 }
 
 resource "azurerm_managed_disk" "ignoretesting2" {
