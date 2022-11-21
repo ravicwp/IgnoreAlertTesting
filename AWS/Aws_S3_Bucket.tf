@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "ignoretest3" {
   bucket = "examplebuckettftest3"
   versioning {
-    mfa_delete = false
+    mfa_delete = true
   }
 }
 
