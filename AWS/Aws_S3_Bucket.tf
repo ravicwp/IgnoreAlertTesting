@@ -1,11 +1,11 @@
-resource "aws_s3_bucket" "ignoretest3" {
+resource "aws_s3_bucket" "ignoretest5" {
   bucket = "examplebuckettftest3"
   versioning {
     mfa_delete = false
   }
 }
 
-resource "aws_s3_bucket" "ignoretest4" {
+resource "aws_s3_bucket" "ignoretest6" {
   bucket = "examplebuckettftest4"
   acl    = "private"
   versioning {
