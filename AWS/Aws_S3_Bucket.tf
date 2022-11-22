@@ -15,6 +15,7 @@ resource "aws_s3_bucket" "ignoretest10" {
   }
 }
 
+
 resource "aws_s3_bucket" "ignoretest11" {
   bucket = "examplebuckettftest5"
   acl    = "private"
