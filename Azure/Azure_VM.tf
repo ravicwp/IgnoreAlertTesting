@@ -28,3 +28,4 @@ resource "azurerm_managed_disk" "ignoretesting3" {
   disk_size_gb         = var.disk_size_gb
   tags = var.common_tags
 }
+
